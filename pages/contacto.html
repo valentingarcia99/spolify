@@ -46,27 +46,27 @@
             <fieldset>
                 <legend><b>Ingresa tus datos personales</b></legend>
     
-                <div>
+                <div class="mb-3">
                     <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" placeholder="Ingresá tu nombre" required>
+                    <input type="text" id="nombre" class="col-xs-12" placeholder="Ingresá tu nombre" required>
                 </div>
-    <br>
-                <div>
+
+                <div class="mb-3">
                     <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido" placeholder="Ingresá tu apellido" required>
+                    <input type="text" id="apellido" class="col-xs-12" placeholder="Ingresá tu apellido" required>
                 </div>
-    <br>
-                <div>
+
+                <div class="mb-3">
                     <label for="e-mail">E-Mail</label>
-                    <input type="email" id="e-mail" placeholder="Ingresá tu E-mail" required>
+                    <input type="email" id="e-mail" class="col-xs-12" placeholder="Ingresá tu E-mail" required>
                 </div>
-    <br>
-                <div>
+
+                <div class="mb-3">
                     <label for="tel">Teléfono</label>
-                    <input type="tel" id="telefono" placeholder="Ingresá tu teléfono" required>
+                    <input type="tel" id="telefono" class="col-xs-12" placeholder="Ingresá tu teléfono" required>
                 </div>
-    <br>
-                <div>
+
+                <div class="mb-3">
                     <select name="solicitud" required>
                         <option value="" selected disabled>Elige un tipo de solicitud</option>
                         <option value="opcion1">Pregunta general</option>
@@ -76,12 +76,12 @@
                         <option value="opcion5">Promociones</option>
                     </select>
                 </div>
-    <br>
-                <textarea name="" id="" cols="50" rows="10" placeholder="Mensaje"></textarea>
+
+                <textarea name="" class="mb-3" cols="50" rows="10" placeholder="Mensaje"></textarea>
 
                 <div class="contacto__Inputs">
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Reiniciar">
+                    <input type="submit" class="btn btn-success" value="Enviar">
+                    <input type="reset" class="btn btn-success mt-3" value="Reiniciar">
                 </div>
             </fieldset>
         </form>

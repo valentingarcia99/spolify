@@ -248,15 +248,15 @@ main {
     text-align: left;
     padding-top: 20px;
     font-size: 40px;
-    margin: auto auto 20px 20px
+    margin: auto auto 20px 20px;
 }
 
 #contacto {
     padding-bottom: 10px;
+    font-size: 20px;
 }
 
 #contacto fieldset {
-    width: 35%;
     margin-left: 20px;
     padding: 20px;
 }
@@ -471,17 +471,14 @@ footer {
     #contacto input {
         display: flex;
         padding: 10px 15px;
-        margin-top: 20px;
     }
 
     #contacto fieldset div {
-        display: flex;
-        flex-direction: column;
         text-align: center;
     }
 
     .contacto__Inputs {
-        align-items: center;
+        align-items: flex-start;
     }
 
     /* @MEDIA CONTACTO */
