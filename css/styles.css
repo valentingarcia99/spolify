@@ -1,0 +1,533 @@
+
+body {
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: rgb(0, 88, 0);
+    border-bottom: solid black 3px;
+    padding: 5px;
+}
+
+.navUl__Lista {
+    display: flex;
+    font-size: 30px;
+    list-style-type: none;
+    justify-content: end;
+    align-items: end;
+    transform: translateY(16px);
+}
+
+.navUl__Lista li {
+    margin: 0px 10px;
+}
+
+.navUl__Lista li:hover {
+    font-size: 28px;
+    border-radius: 20px;
+    border: solid 3px white;
+    padding: 2px 5px;
+}
+
+a:hover { 
+    color:#ffff
+}
+
+main {
+    background-color: rgba(41, 35, 35, 0.712);
+    color: white;
+}
+
+.seccionPrincipal {
+    display: grid;
+    grid-template-columns: 1.3fr 1.8fr; 
+    grid-template-rows: 420px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 20px;
+}
+
+.seccionPrincipal img {
+    margin-left: -10px;
+    width: 100%;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.seccionPrincipal__presentacion {
+    text-align: center;
+    font-size: 22px;
+    width: 90%;
+}
+
+.seccionPrincipal__presentacion p {
+    margin: 20px auto;
+}
+
+.animate__rubberBand {
+    animation-delay: 1s;
+}
+
+.seccionPrincipal__recomendaciones {
+    text-align: center;
+    font-size: 40px;
+    margin: 25px auto 20px auto;
+}
+
+.animate__fadeInDown {
+    animation-delay: 3s;
+}
+
+.contenedorArtistas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.artista {
+    font-size: 30px;
+    background-color: rgb(0, 134, 34);
+    margin: 10px 30px 30px 30px;
+    height: 680px;
+    width: 350px;
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.artista:hover {
+    width: 400px;
+}
+
+.artista h3 {
+    margin: 5px auto 25px auto;
+}
+
+.artista img {
+    margin: -20px 0 0 0;
+}
+
+.artista iframe {
+    width: 90%;
+    height: 300px;
+    padding: 10px;
+}
+
+.seccion_descargar {   
+    /*fondo de DJ*/
+    /* background-image: url(https://wallpaperaccess.com/full/782147.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-image: linear-gradient(to right, green, greenyellow, green);
+    text-align: center;
+    font-size: 25px;
+    border: solid black 2px;
+}
+
+.seccion_descargar h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.seccion_descargar a {
+    color: rgb(0, 197, 49);
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.mobileNavUl_Lista {
+    display: none;
+}
+
+/* REGISTRATE */
+
+.registro__Titulo {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    margin: auto auto 20px 45px;
+
+}
+
+#registro fieldset {
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+    border: dashed white 2px;
+}
+
+#registro {
+    text-align: center;
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+
+.registro__Sexo {
+    margin: -10px auto 10px auto;
+}
+
+/* REGISTRATE */
+
+/* PREMIUM */
+
+.serPremium {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.serPremium p {
+    margin: 10px auto 15px auto;
+    padding-bottom: 20px;
+}
+
+.serPremium a {
+    color: rgb(0, 223, 56);
+    padding: 7px;
+    border: solid rgb(0, 223, 56) 3px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.beneficiosh2 {
+    margin-top: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.premium__beneficios {
+    margin-top: 20px;
+}
+
+.beneficio {
+    width: 20%;
+    height: 300px;
+    text-align: center;
+}
+
+.beneficio img {
+    width: 200px;
+    height: 200px;
+}
+
+.beneficio h3 {
+    margin: 10px auto;
+}
+
+.tablaTitulo {
+    text-align: center;
+    color: rgb(0, 197, 49);
+    font-size: 40px;
+    margin: 20px auto;
+}
+
+#planes li {
+    list-style-type: none;
+}
+
+.mobileNavUl {
+    display: none;
+}
+
+/* PREMIUM */
+
+/* CONTACTO */
+
+.contactoTitulo {
+    text-align: left;
+    padding-top: 20px;
+    font-size: 40px;
+    margin: auto auto 20px 20px
+}
+
+#contacto {
+    padding-bottom: 10px;
+}
+
+#contacto fieldset {
+    width: 35%;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+/* CONTACTO */
+
+/* QUIENES SOMOS */
+
+.quienesSomos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quienesSomosh1 {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.quienesSomos p {
+    width: 45%;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.quienesSomos img {
+    display: flex;
+    justify-items: center;
+    width: 45%;
+}
+
+.quienesSomos__resumen {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 50px 30px 50px;
+    font-style: italic;
+}
+
+.quienesSomos__sede h2 {
+    font-size: 50px;
+}
+
+.quienesSomos__sede {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* QUIENES SOMOS */
+
+footer {
+    background-color: rgba(17, 16, 16, 0.973);
+    font-size: 15px;
+    height: 30px;
+    padding-top: 1px;
+}
+
+.footer__lista {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer__lista li {
+    margin-left: 15px;
+}
+
+.footer__lista li:hover {
+    border-bottom: solid 2px white;
+}
+
+.footer__derechos {
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
+    font-style: italic;
+    color: white;
+}
+
+@media (max-width: 767px) {
+
+    /* @MEDIA INDEX */
+
+    #indexBody header {
+        display: none;
+    }
+
+    .seccionPrincipal__presentacion {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .animate__rubberBand {
+        animation: none;
+    }
+
+    .seccionPrincipal__presentacion p {
+        margin: 10px auto;
+    }
+
+    .seccionPrincipal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccionPrincipal img {
+        margin: 20px auto;
+    }
+
+    .seccionPrincipal__recomendaciones {
+        display: none;
+    }
+
+    #recomendaciones {
+        display: none;
+    }
+
+    .mobileNavUl {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .mobileNavUl_Lista {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobileNavUl__Lista li {
+        list-style-type: none;
+        margin-bottom: 5px;
+    }
+
+    #footerDesktop {
+        display: none;
+    }
+
+    /* @MEDIA INDEX */
+
+    /* @MEDIA PREMIUM */
+
+    #premiumBody header {
+        display: none;
+    }
+
+    .serPremium {
+        margin: auto 15px;
+    }
+
+    .premium__beneficios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beneficio {
+        flex-direction: column;
+        width: 100%;
+        margin: 10px auto 20px auto;
+    }
+
+    .beneficio img {
+        padding-bottom: 10px;
+    }
+
+    /* @MEDIA PREMIUM */
+
+    /* @MEDIA REGISTRATE */
+
+    #registrateBody header {
+        display: none;
+    }
+
+    #registro {
+        font-size: 25px;
+    }
+
+    .registro__Inputs {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #registro input {
+        padding: 10px 15px;
+    }
+
+    /* @MEDIA REGISTRATE */
+
+    /* @MEDIA CONTACTO */
+
+    #contactoBody header {
+        display: none;
+    }
+
+    .contactoTitulo {
+        text-align: center;
+        padding: 20px 0 15px 0;
+        margin: 0;
+    }
+
+    #contacto {
+        font-size: 25px;
+    }
+
+    #contacto fieldset {
+        margin-left: 5px;
+    }
+
+    #contacto input {
+        display: flex;
+        padding: 10px 15px;
+        margin-top: 20px;
+    }
+
+    #contacto fieldset div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contacto__Inputs {
+        align-items: center;
+    }
+
+    /* @MEDIA CONTACTO */
+
+    /* @MEDIA QUIENES SOMOS */
+
+    #quienessomosBody header {
+        display: none;
+    }
+
+    .quienesSomos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quienesSomos img {
+        width: 90%;
+    }
+
+    .quienesSomos p {
+        font-size: 25px;
+        width: 95%;
+        margin: 0 0 30px 0;
+    }
+
+    .quienesSomos__resumen {
+        font-size: 25px;
+        text-align: center;
+        margin: 30px 10px;
+        padding: 0;
+    }
+
+    .quienesSomos__sede {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .quienesSomos__sede h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .quienesSomos__sede iframe {
+        width: 95%;
+        height: 400px;
+        margin: 20px 0 -10px 0;
+    }
+ 
+}
+
