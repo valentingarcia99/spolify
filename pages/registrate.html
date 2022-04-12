@@ -42,60 +42,60 @@
     <main>
         <h1 class="registro__Titulo">Registrate</h1>
 
-        <form id="registro">
+        <form id="registro" class="container">
             <fieldset>
                 <legend>Ingresá tus datos personales</legend>
     
-                <div class="registro__Sexo">
+                <div class="registro__Sexo mb-3">
                     <label for="hombre">Hombre</label>
-                    <input type="radio" name="sexo">
+                    <input type="radio" class="form-check-input" name="sexo">
                     <label for="mujer">Mujer</label>
-                    <input type="radio" name="sexo">
+                    <input type="radio" class="form-check-input" name="sexo">
                 </div>
 
-                <div>
+                <div class="mb-3">
                     <label for="nombre">Nombres</label>
-                    <input type="text" id="nombre" placeholder="Ingresá tu nombre completo" required>
+                    <input type="text" id="nombre" class="col-12" placeholder="Ingresá tu nombre completo" required>
                 </div>
-    <br>
-                <div>
+
+                <div class="mb-3">
                     <label for="apellido">Apellidos</label>
-                    <input type="text" id="apellido" placeholder="Ingresá tu apellido completo" required>
+                    <input type="text" id="apellido" class="col-12" placeholder="Ingresá tu apellido completo" required>
                 </div>
-    <br>
-                <div>
+
+                <div class="mb-3">
                     <label for="telefono">Teléfono</label>
-                    <input type="tel" id="telefono" placeholder="Ingresá tu teléfono" required>
+                    <input type="tel" id="telefono" class="col-12" placeholder="Ingresá tu teléfono" required>
                 </div>
-    <br>
-                <div>
+
+                <div class="mb-3">
                     <label for="email">E-mail</label>
-                    <input type="e-mail" id="email" placeholder="Ingresá tu E-mail" required>
+                    <input type="e-mail" id="email" class="col-12" placeholder="Ingresá tu E-mail" required>
                 </div>
-    <br>
-                <div>
+
+                <div class="mb-3">
                     <label for="contraseña">Contraseña</label>
-                    <input type="password" id="contraseña" placeholder="Ingresá una contraseña" required>
+                    <input type="password" id="contraseña" class="col-12" placeholder="Ingresá una contraseña" required>
                 </div>
-    <br>
-                <div>
+
+                <div class="mb-3">
                     <label for="reingresarcontraseña">Confirmá tu contraseña</label>
-                    <input type="password" id="reingresarcontraseña" placeholder="Reingresá la contraseña" required>
+                    <input type="password" id="reingresarcontraseña" class="col-12" placeholder="Reingresá la contraseña" required>
                 </div>
-    <br>
-                <div>
-                    <input type="checkbox" id="newsletter">
+
+                <div class="mb-1">
+                    <input type="checkbox" class="form-check-input" id="newsletter">
                     <label for="newsletter">No quiero recibir mensajes de marketing de Spolify</label>
                 </div>
-    
-                <div>
-                    <input type="checkbox" id="compartir-datos">
-                    <label for="compartir-datos">Compartir mis datos de registro con los proveedores de contenidos de Spolify para fines de marketing.</label>
+
+                <div class="mb-3">
+                    <input type="checkbox" class="form-check-input" id="compartir-datos">
+                    <label for="compartir-datos">Compartir mis datos de registro con Spolify para fines de marketing.</label>
                 </div>
-    <br>
+
                 <div class="registro__Inputs">
-                    <input type="button" value="Enviar">
-                    <input type="reset" value="Reiniciar">
+                    <input type="button" class="btn btn-success" value="Enviar">
+                    <input type="reset" class="btn btn-success" value="Reiniciar">
                 </div>
     
             </fieldset>

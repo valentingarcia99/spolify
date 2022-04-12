@@ -153,18 +153,16 @@ main {
     text-align: center;
     padding-top: 20px;
     font-size: 40px;
-    margin: auto auto 20px 45px;
-
+    margin-bottom: 20px;
 }
 
 #registro fieldset {
-    width: 50%;
-    margin-left: 25%;
     padding: 20px;
     border: dashed white 2px;
 }
 
 #registro {
+    width: 45%;
     text-align: center;
     margin-top: -10px;
     padding-bottom: 20px;
@@ -172,6 +170,10 @@ main {
 
 .registro__Sexo {
     margin: -10px auto 10px auto;
+}
+
+#compartir-datos label {
+    font-size: 10px;
 }
 
 /* REGISTRATE */
@@ -432,16 +434,16 @@ footer {
     }
 
     #registro {
-        font-size: 25px;
-    }
-
-    .registro__Inputs {
-        display: flex;
-        justify-content: space-around;
+        font-size: 20px;
+        width: 100%;
     }
 
     #registro input {
         padding: 10px 15px;
+    }
+
+    .form-check-input[type=radio] {
+        border-radius: 20px;
     }
 
     /* @MEDIA REGISTRATE */
