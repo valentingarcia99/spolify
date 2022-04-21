@@ -1,0 +1,510 @@
+
+body {
+    font-family: Roboto;
+    background-image: url(https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: rgb(0, 88, 0);
+    border-bottom: solid black 3px;
+    padding: 5px;
+}
+
+.navUl__Lista {
+    display: flex;
+    font-size: 30px;
+    list-style-type: none;
+    justify-content: end;
+    align-items: end;
+    transform: translateY(16px);
+}
+
+.navUl__Lista li {
+    margin: 0px 10px;
+}
+
+.navUl__Lista li:hover {
+    font-size: 28px;
+    border-radius: 20px;
+    border: solid 3px white;
+    padding: 2px 5px;
+}
+
+a:hover { 
+    color:#ffff
+}
+
+main {
+    background-color: rgba(24, 21, 21, 0.712);
+    color: white;
+}
+
+.seccionPrincipal {
+    display: grid;
+    grid-template-columns: 1.3fr 1.8fr; 
+    grid-template-rows: 420px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 20px;
+}
+
+.seccionPrincipal img {
+    margin-left: -10px;
+    width: 100%;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.seccionPrincipal__presentacion {
+    text-align: center;
+    font-size: 22px;
+    width: 90%;
+}
+
+.seccionPrincipal__presentacion p {
+    margin: 20px auto;
+}
+
+.animate__rubberBand {
+    animation-delay: 1s;
+}
+
+.seccionPrincipal__recomendaciones {
+    text-align: center;
+    font-size: 40px;
+    margin: 25px auto 20px auto;
+}
+
+.animate__fadeInDown {
+    animation-delay: 3s;
+}
+
+.artista {
+    font-size: 30px;
+    background-color: rgb(0, 134, 34);
+    margin: 10px 30px 30px 30px;
+    height: 680px;
+    width: 350px;
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.artista h3 {
+    margin: 5px auto 25px auto;
+}
+
+.artista img {
+    margin: -20px 0 0 0;
+}
+
+.artista iframe {
+    width: 90%;
+    height: 300px;
+    padding: 10px;
+}
+
+.artista:hover {
+    padding: 2px 3px;
+    background-color: rgb(50, 50, 255);
+}
+
+.seccion_descargar {   
+    /*fondo de DJ*/
+    /* background-image: url(https://wallpaperaccess.com/full/782147.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-image: linear-gradient(to right, green, greenyellow, green);
+    text-align: center;
+    font-size: 25px;
+    border: solid black 2px;
+}
+
+.seccion_descargar h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.seccion_descargar a {
+    color: rgb(0, 197, 49);
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.mobileNavUl_Lista {
+    display: none;
+}
+
+/* REGISTRATE */
+
+.registro__Titulo {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#registro fieldset {
+    padding: 20px;
+    border: dashed white 2px;
+}
+
+#registro {
+    width: 45%;
+    text-align: center;
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+
+.registro__Sexo {
+    margin: -10px auto 10px auto;
+}
+
+#compartir-datos label {
+    font-size: 10px;
+}
+
+/* REGISTRATE */
+
+/* PREMIUM */
+
+.serPremium {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.serPremium p {
+    margin: 10px auto 15px auto;
+    padding-bottom: 20px;
+}
+
+.serPremium a {
+    color: rgb(0, 223, 56);
+    padding: 7px;
+    border: solid rgb(0, 223, 56) 3px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.beneficiosh2 {
+    margin-top: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.premium__beneficios {
+    margin-top: 20px;
+}
+
+.beneficio {
+    width: 20%;
+    height: 300px;
+    text-align: center;
+}
+
+.beneficio img {
+    width: 200px;
+    height: 200px;
+}
+
+.beneficio h3 {
+    margin: 10px auto;
+}
+
+.tablaTitulo {
+    text-align: center;
+    color: rgb(0, 197, 49);
+    font-size: 40px;
+    margin: 20px auto;
+}
+
+#planes li {
+    list-style-type: none;
+}
+
+.mobileNavUl {
+    display: none;
+}
+
+/* PREMIUM */
+
+/* CONTACTO */
+
+.contactoTitulo {
+    text-align: left;
+    padding-top: 20px;
+    font-size: 40px;
+    margin: auto auto 20px 20px;
+}
+
+#contacto {
+    margin-left: 20px;
+    font-size: 25px;
+    width: 40%;
+    border: solid 1px white;
+    transform: translateY(-15px);
+}
+
+#contacto fieldset {
+    padding: 10px;
+}
+
+/* CONTACTO */
+
+/* QUIENES SOMOS */
+
+.quienesSomos {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.quienesSomos p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.quienesSomos__resumen {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 30px;
+}
+
+.quienesSomos__sede h2 {
+    font-size: 50px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+/* QUIENES SOMOS */
+
+footer {
+    background-color: rgba(17, 16, 16, 0.973);
+    font-size: 15px;
+    height: 30px;
+    padding-top: 1px;
+}
+
+.footer__lista {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer__lista li {
+    margin-left: 15px;
+}
+
+.footer__lista li:hover {
+    border-bottom: solid 2px white;
+}
+
+.footer__derechos {
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
+    font-style: italic;
+    color: white;
+}
+
+@media (max-width: 767px) {
+
+    /* @MEDIA INDEX */
+
+    #indexBody header {
+        display: none;
+    }
+
+    .seccionPrincipal__presentacion {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .animate__rubberBand {
+        animation: none;
+    }
+
+    .seccionPrincipal__presentacion p {
+        margin: 10px auto;
+    }
+
+    .seccionPrincipal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccionPrincipal img {
+        margin: 20px auto;
+    }
+
+    .seccionPrincipal__recomendaciones {
+        display: none;
+    }
+
+    .contenedorArtistas {
+        display: none;
+    }
+
+    .mobileNavUl {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .mobileNavUl_Lista {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobileNavUl__Lista li {
+        list-style-type: none;
+        margin-bottom: 5px;
+    }
+
+    #footerDesktop {
+        display: none;
+    }
+
+    /* @MEDIA INDEX */
+
+    /* @MEDIA PREMIUM */
+
+    #premiumBody header {
+        display: none;
+    }
+
+    .serPremium {
+        margin: auto 15px;
+    }
+
+    .premium__beneficios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beneficio {
+        flex-direction: column;
+        width: 100%;
+        margin: 10px auto 20px auto;
+    }
+
+    .beneficio img {
+        padding-bottom: 10px;
+    }
+
+    /* @MEDIA PREMIUM */
+
+    /* @MEDIA REGISTRATE */
+
+    #registrateBody header {
+        display: none;
+    }
+
+    #registro {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #registro input {
+        padding: 10px 15px;
+    }
+
+    .form-check-input[type=radio] {
+        border-radius: 20px;
+    }
+
+    /* @MEDIA REGISTRATE */
+
+    /* @MEDIA CONTACTO */
+
+    #contactoBody header {
+        display: none;
+    }
+
+    .contactoTitulo {
+        text-align: center;
+        padding-top: 20px;
+        margin: 0 0 25px 0;
+    }
+
+    #contacto {
+        font-size: 25px;
+        width: 90%
+    }
+
+    #contacto fieldset div {
+        text-align: center;
+    }
+
+    #contacto fieldset legend {
+        text-align: center;
+    }
+
+    .contacto__Inputs {
+        display: flex;
+        justify-content: start;
+    }
+
+    #contactoReset {
+        margin-left: 5px;
+    }
+
+
+    /* @MEDIA CONTACTO */
+
+    /* @MEDIA QUIENES SOMOS */
+
+    #quienessomosBody header {
+        display: none;
+    }
+
+    .quienesSomos {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 2.5rem;
+    }
+
+    .quienesSomos h1 {
+        font-size: 3rem;
+    }
+
+    .quienesSomos p {
+        font-size: 25px;
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .quienesSomos__resumen {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .quienesSomos img {
+        width: 100%;
+    }
+
+    .quienesSomos__sede h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .quienesSomos__sede iframe {
+        width: 100%;
+    }
+ 
+}
