@@ -1,6 +1,6 @@
 body {
     font-family: Roboto;
-    background-image: url(https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg);
+    background-image: url(../images/imgbackground.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,17 +148,4 @@ main {
 
 .mobileNavUl_Lista {
     display: none;
-}
-
-/*QUIZAS ESTO LO USE MAS ADELANTE, TODAVIA NO LO VEO UTIL PARA MI PAGINA*/
-$generosMusicales: (
-    pop: #EEC643,
-    electronica: #EEF0F2,           
-    metal: #141414
-);
-
-@each $genero, $color in $generosMusicales {
-    .genero__#{$genero} {
-        background-color: $color;
-    }
 }
